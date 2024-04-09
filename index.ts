@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')))
   .set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('index1');
+  res.render('index2');
 });
 
 app.get('/api', (req, res) => {
